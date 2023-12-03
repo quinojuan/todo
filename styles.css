@@ -32,10 +32,7 @@
   margin-left: 10px;
 }
 .row {
-  /* width: 100%;
-  max-width: 100%; */
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   background: #edeef0;
@@ -87,20 +84,20 @@ ul li.checked {
   text-decoration: line-through;
 }
 ul li.checked::before {
-    background-image: url(images/checked.png);
+  background-image: url(images/checked.png);
 }
 ul li span {
-    position: absolute;
-    right: 0;
-    top: 5px;
-    width: 40px;
-    height: 40px;
-    font-size: 22px;
-    color: #555;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #555;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
 }
-ul li span:hover{
+ul li span:hover {
   background: #edeef0;
 }
