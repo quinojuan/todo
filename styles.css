@@ -32,7 +32,10 @@
   margin-left: 10px;
 }
 .row {
+  /* width: 100%;
+  max-width: 100%; */
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   background: #edeef0;
@@ -41,7 +44,8 @@
   margin-bottom: 25px;
 }
 input {
-  flex: 1;
+  /* flex: 1; */
+  width: 50%;
   border: none;
   outline: none;
   background: transparent;
